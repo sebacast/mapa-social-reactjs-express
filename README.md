@@ -25,7 +25,7 @@ Panel de administración donde se pueden agregar contactos y cargar servicios (s
 ![Contactos](./imagenes-mapa-social/contactos2.png)
 ![Contactos](./imagenes-mapa-social/contactos3.png)
 ![Contactos](./imagenes-mapa-social/contactos4.png)
-![Contactos](./imagenes-mapa-social/contactos5.png)
+![Contactos](./imagenes-mapa-social/contactos5.png).
 
 
 ## Mapa
