@@ -15,8 +15,7 @@ Vista e ingreso usando Google login (la idea es implementar Facebook login en al
 ## Perfil de usuario
 Panel de administración donde se pueden agregar contactos y cargar servicios (solo Mapa disponible)
 ![Perfil](./imagenes-mapa-social/perfil.png)
-- Se solicitan los datos del perfil (archivo json)
-- Se solicita la lista de contactos (Mongodb)
+Datos del perfil (archivo json) y lista de contactos (Mongodb)
 
 -------
 
