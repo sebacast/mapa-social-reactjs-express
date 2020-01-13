@@ -26,13 +26,13 @@ Panel de administración donde se pueden agregar contactos y cargar servicios (s
 ![Contactos](./imagenes-mapa-social/contactos3.png)
 ![Contactos](./imagenes-mapa-social/contactos4.png)
 ![Contactos](./imagenes-mapa-social/contactos5.png)
-- Una vez aceptada, ambos usuarios se podran ver mutuamente.
+- Una vez aceptada, ambos usuarios se verán en el cuadro de contactos.
+
 
 ## Mapa
 Para poder acceder al componente Mapa, primero hay que cargar el servicio en la pestaña servicios
 ![Mapa](./imagenes-mapa-social/mapa1.png)
 ![Mapa](./imagenes-mapa-social/mapa2.png)
-
 Una vez cargado el servicio, se podrá visualizar la ultima ubicación compartida del usuario
 ![Mapa](./imagenes-mapa-social/mapa3.png)
 ![Mapa](./imagenes-mapa-social/mapa4.png)
