@@ -15,11 +15,11 @@ Vista e ingreso usando Google login (la idea es implementar Facebook login en al
 ## Perfil de usuario
 Panel de administración donde se pueden agregar contactos y cargar servicios (solo Mapa disponible)
 ![Perfil](./imagenes-mapa-social/perfil.png)
-Datos del perfil (archivo json) y lista de contactos (Mongodb)
+Datos del perfil (archivo json) y lista de contactos (Mongodb).
 
-## Contactos
+## Contactos
 - Para compartir la ubicación hay que agregar contactos. Esto se hace mediante un sistema de solicitudes y gestión de contactos que se almacenan en MongoDb.
-Un usuario envía la solicitud, y el receptor decide si acepta o rechaza la solicitud
+- Un usuario envía la solicitud, y el receptor decide si acepta o rechaza la solicitud.
 ![Contactos](./imagenes-mapa-social/contactos1.png)
 ![Contactos](./imagenes-mapa-social/contactos2.png)
 ![Contactos](./imagenes-mapa-social/contactos3.png)
