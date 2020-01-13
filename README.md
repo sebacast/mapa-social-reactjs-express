@@ -27,6 +27,7 @@ Un usuario envía la solicitud, y el receptor decide si acepta o rechaza la soli
 ![Contactos](./imagenes-mapa-social/contactos4.png)
 ![Contactos](./imagenes-mapa-social/contactos5.png)
 
+
 ## Mapa
 Para poder acceder al componente Mapa, primero hay que cargar el servicio en la pestaña servicios
 ![Mapa](./imagenes-mapa-social/mapa1.png)
@@ -79,7 +80,8 @@ Los datos se almacenan en una colección de Mongodb
 - get: '/menu'
 - post: '/menu'
 
-#### contactos
+
+#### Contactos
 - get: '/'
 - put: '/'
 - post: '/eliminar'
