@@ -17,10 +17,8 @@ Panel de administración donde se pueden agregar contactos y cargar servicios (s
 ![Perfil](./imagenes-mapa-social/perfil.png)
 Datos del perfil (archivo json) y lista de contactos (Mongodb)
 
--------
-
 ## Contactos
-Para compartir la ubicación hay que agregar contactos. Esto se hace mediante un sistema de solicitudes y gestión de contactos que se almacenan en MongoDb.
+- Para compartir la ubicación hay que agregar contactos. Esto se hace mediante un sistema de solicitudes y gestión de contactos que se almacenan en MongoDb.
 Un usuario envía la solicitud, y el receptor decide si acepta o rechaza la solicitud
 ![Contactos](./imagenes-mapa-social/contactos1.png)
 ![Contactos](./imagenes-mapa-social/contactos2.png)
