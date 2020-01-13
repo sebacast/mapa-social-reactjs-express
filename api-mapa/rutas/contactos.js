@@ -24,26 +24,7 @@ function validarToken(token) {
     }
 }
 
-router.get('/prueba', function (req, res, next) {
-    try {
-        mongc.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
-            let solicitudes = client.db(db).collection('solicitudes')
-            solicitudes.find().toArray((error, data) => {
-                if (error) {
-                    res.json({ valido: false })
-                }
-                else {
-                    res.json(data)
-                }
-
-            });
-        })
-    } catch (error) {
-        res.json({ valido: false })
-    }
-})
 router.get('/', function (req, res, next) {
-
     try {
         let token = validarToken(JSON.parse(req.headers.authorization).token)
         let email = token.perfil.email
